@@ -25,7 +25,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from datetime import datetime
 import time
 
-st.set_page_config(page_title="Simple Graphical Email Sender", layout="wide")
+st.set_page_config(page_title="DashMail", layout="wide")
 
 scheduler = BackgroundScheduler()
 scheduler.start()
@@ -88,7 +88,7 @@ def send_email_with_image(smtp_server, smtp_port, username, password, recipients
         server.sendmail(username, recipients, msg.as_string())
 
 # --- Streamlit UI ---
-st.title("📨 Simple Graphical Email Sender")
+st.title("DashMail-Simple Graphical Email Sender")
 
 with st.sidebar:
     st.markdown("### SMTP settings")
