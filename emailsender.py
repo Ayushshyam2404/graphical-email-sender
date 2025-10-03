@@ -202,7 +202,7 @@ if schedule_button:
             st.success(f"Scheduled email job for {run_dt}")
 
 st.markdown("---")
-st.markdown("**Notes:** The app must remain running for scheduled sends. Use app passwords for providers with 2FA and respect anti-spam rules.")
+st.markdown("# Made by Ayush Shyam, Because he is fuckedup of E-mails....")
 
 # keep the scheduler alive while Streamlit runs (no-op loop to satisfy some environments)
 try:
